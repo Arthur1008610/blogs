@@ -1,0 +1,16 @@
+package com.luban.dao;
+/**
+ * 
+ * Title:BlogArticleDao
+ * describe:文章dao层接口
+ * @author 鲁班学院-无涯老师
+ * @日期 2018-10-9 下午8:30:29
+ * @version 1.0
+ */
+public interface BlogArticleDao {
+
+	/**
+	 * 根据分类id查询文章信息
+	 */
+	public int queryCountArticle(int bacId);
+}

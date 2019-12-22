@@ -1,0 +1,4 @@
+a=oracle.jdbc.OracleDriver
+b=jdbc:oracle:thin:@localhost:1521:XE
+c=xiaozhang
+d=123456

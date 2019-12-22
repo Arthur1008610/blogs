@@ -1,0 +1,31 @@
+package com.luban.service.impl;
+
+import java.util.List;
+
+import com.luban.dao.BlogArticleCategoryDao;
+import com.luban.dao.impl.BlogArticleCategoryDaoImpl;
+import com.luban.po.BlogArticleCategory;
+import com.luban.service.BlogArticleCategoryService;
+
+
+
+public class BlogArticleCategoryServiceImpl implements
+		BlogArticleCategoryService {		
+		BlogArticleCategoryDao aa=new BlogArticleCategoryDaoImpl();
+	public List<BlogArticleCategory> query() {
+		// TODO Auto-generated method stub
+		return aa.query();
+	}
+	public List<BlogArticleCategory> queryParent() {
+		// TODO Auto-generated method stub
+		return aa.queryParent();
+	}
+	public int save(BlogArticleCategory articleCategory) {
+		// TODO Auto-generated method stub
+		return aa.save(articleCategory);
+	}
+	
+	
+	
+
+}

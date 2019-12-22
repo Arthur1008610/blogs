@@ -1,0 +1,13 @@
+package com.luban.dao.impl;
+
+import com.luban.dao.BlogArticleDao;
+import com.luban.util.Basedao;
+
+public class BlogArticleDaoImpl extends Basedao implements BlogArticleDao{
+
+	public int queryCountArticle(int bacId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
